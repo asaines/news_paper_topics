@@ -14,9 +14,33 @@ By the end of this tutorial, you'll understand:
 
 This project uses a dataset of approximately 1.2 million BBC news headlines published between 2013 and 2021. The data shows an interesting trend: the number of headlines per year follows a monotonically decreasing pattern, with 2013 representing 7% of the observations and 2021 only 1.4%.
 
-![Headlines Distribution by Year](https://placeholder-for-your-actual-image.png)
 
-*Note: You should create and add this visualization to your repository*
+```python
+
+# ![Headlines Distribution by Year]
+year
+2013    0.073886
+2012    0.071539
+2014    0.065530
+2008    0.064292
+2011    0.062513
+2015    0.062121
+2007    0.062028
+2009    0.061441
+2010    0.060225
+2005    0.058773
+2004    0.058411
+2006    0.053771
+2003    0.051437
+2016    0.049489
+2017    0.038186
+2020    0.032342
+2018    0.032232
+2019    0.027375
+2021    0.014408
+Name: proportion, dtype: float64
+(1244184, 3)
+```
 
 ## Step 1: Sampling Strategy for Large Datasets
 
@@ -174,7 +198,7 @@ plt.show()
 
 Our analysis revealed an interesting pattern: the coherence metric initially increases up to k=11, then unexpectedly decreases between k=11 and k=17, before rising again to peak at k=33. For simplicity and interpretability, we selected 8 topics, which aligns better with expected news headline subtopics.
 
-![Topic Coherence Score](D:\OneDrive - KU Leuven\5 term\Text mining\project\lda\news_paper_topics\graphs\coherence_topics.png)
+![Topic Coherence Score](graphs\coherence_topics.png)
 
 *Note: Add your actual coherence graph here*
 
@@ -240,7 +264,7 @@ plt.show()
 
 Our analysis revealed that Topic G (Topic 7) showed a substantial increase from 2003, reaching its peak in 2012. However, all topics began to decline thereafter, likely due to the decreasing number of headlines in the dataset.
 
-![Topic Evolution](D:\OneDrive - KU Leuven\5 term\Text mining\project\lda\news_paper_topics\graphs\topics_times.png)
+![Topic Evolution](graphs\topics_times.png)
 
 *Note: Add your actual topic evolution graph here*
 
