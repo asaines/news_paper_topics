@@ -198,7 +198,7 @@ plt.show()
 
 Our analysis revealed an interesting pattern: the coherence metric initially increases up to k=11, then unexpectedly decreases between k=11 and k=17, before rising again to peak at k=33. For simplicity and interpretability, we selected 8 topics, which aligns better with expected news headline subtopics.
 
-![Topic Coherence Score](graphs\coherence_topics.png)
+![Topic Coherence Score](graphs/coherence_topics.png)
 
 *Note: Add your actual coherence graph here*
 
@@ -264,7 +264,7 @@ plt.show()
 
 Our analysis revealed that Topic G (Topic 7) showed a substantial increase from 2003, reaching its peak in 2012. However, all topics began to decline thereafter, likely due to the decreasing number of headlines in the dataset.
 
-![Topic Evolution](graphs\topics_times.png)
+![Topic Evolution](graphs/topics_times.png)
 
 *Note: Add your actual topic evolution graph here*
 
